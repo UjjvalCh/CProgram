@@ -1,0 +1,29 @@
+//C program to find greatest number between tow numbers
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ 	//declaring varible to store varible
+ 	int first;
+ 	int second; 	
+	
+	//taking input from the user
+	printf("Enter the first and second number: ");
+	scanf("%d%d",&first,&second);
+	
+	//calculating and printing
+	if(first>second)
+	{
+		printf(" %d Thisnumber is greater than the other one.",first);	
+	}
+	else if(first<second)
+	{
+		printf("%d This number is greater than the other one.",second);
+	}
+	else
+	{
+		printf("Both number are equal.");
+	}
+	//the end
+getch();
+}
