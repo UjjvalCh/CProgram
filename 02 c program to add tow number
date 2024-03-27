@@ -1,0 +1,26 @@
+//C program to add tow number 
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ 	//declaring varible to store varible
+ 	int no1,no2;
+ 	int sum;
+	
+	//taking input from the user
+	printf("Enter the first number: ");
+	scanf("%d",&no1);
+	
+	//taking once more input from the user
+	printf("Enter the second number: ");
+	scanf("%d",&no2);
+	
+	//calculating the sum of the number
+	sum=no1+no2;
+	
+	//printing the sum
+	printf("The sum of the number is %d",sum);
+	
+	//program end
+getch();
+}
