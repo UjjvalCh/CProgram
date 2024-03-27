@@ -1,0 +1,10 @@
+//C program to print hello world
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ 	//code start from here
+ 	printf("Hello world");
+getch();
+}
+ 
