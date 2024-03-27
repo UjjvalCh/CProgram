@@ -1,0 +1,26 @@
+//C program to multiply two float number 
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ 	//declaring varible to store varible
+ 	float no1,no2;
+ 	float sum;
+	
+	//taking input from the user
+	printf("Enter the first number: ");
+	scanf("%f",&no1);
+	
+	//taking once more input from the user
+	printf("Enter the second number: ");
+	scanf("%f",&no2);
+	
+	//calculating the sum of the number
+	sum=no1*no2;
+	
+	//printing the sum
+	printf("The sum of the number is %f",sum);
+	
+	//program end
+getch();
+}
