@@ -1,0 +1,24 @@
+//c program to check the number is even or odd.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	//varibles are here. 
+	int number;
+	
+	//taking input from the user.
+	printf("Enter the number: ");
+	scanf("%d",&number);
+	
+	//checking the number is even or odd.
+	if(number/2=0)
+	{
+		printf("The number is even.")
+	}
+	else
+	{
+		printf("The number is odd.");
+	}
+	//program end
+getch();
+}
