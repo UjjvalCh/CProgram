@@ -1,0 +1,26 @@
+//c program to swap two numbers
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	//some varibles 
+	int n1,n2;
+		
+	//taking input from the user 
+	printf("Enter the first and second number: ")
+	scanf("%d%d",&n1,&n2);
+	
+	//before swapping the number 
+	printf("\nBefore swapping.");
+	printf("\nFirst number is: %d",n1);
+	printf("\nSecond number is: %d",n2);
+	printf("\n\n\n\n\n\n\n");
+		
+	//after swapping the number
+	printf("after swapping the number. ");
+	printf("\nFirst number is: %d",n2);
+	printf("\nSecond number is: %d",n1);
+	
+	//program end
+getch();	
+}
