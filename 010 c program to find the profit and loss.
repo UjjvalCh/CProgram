@@ -1,0 +1,43 @@
+//c program to find the profit and loss.
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	//varibles are here.
+	int profit,loss;
+	int cp,sp;
+	
+	//taking cost price from the user.
+	printf("Enter the cost price: ");
+	scanf("%d",&cp);
+	
+	//taking selling price from the user.
+	printf("Enter the selling price: ");
+	scanf("%d",&sp);
+	
+	//calculating the profit and loss;
+	
+	//for loss
+	if(cp>sp)
+	{
+		//means this a loss 
+		loss=cp-sp;
+		printf("This is a loss and the loss is %d.",loss);
+	}
+	
+	//for profit
+	else if(sp>cp)
+	{
+		//means this a profit
+		profit=sp-cp;
+		printf("This is a profit and the profit is %d.",profit);
+	}
+	//for nothing
+	else
+	{
+		//there is no profit or loss
+		printf("There is zero profit and zero loss.");
+	}
+	//program ends here
+getch();
+}
